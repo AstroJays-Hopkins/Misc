@@ -1,0 +1,7 @@
+- 6 thermocouples against time
+- 3 loadcells against time
+- 4 pressure xducers against
+- output to folder plots
+- horizontal linea t criticla pressure and critial temperature horizontal line
+- plot bools
+- continous monitor
