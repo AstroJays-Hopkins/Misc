@@ -9,3 +9,10 @@ fire, kill your pets, or do other horrible things. Consider yourself warned.
 (Avionics)
 
 Visualize the runtime sensor logs (in our csv format).
+
+## Schematics
+
+(Avionics)
+
+Temporary schematics until better quality ones can be drawn. Nove these out as
+they mature.
