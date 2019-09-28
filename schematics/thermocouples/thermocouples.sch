@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:thermocouples-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,7 +26,7 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface:AdafruitMAX31885 U6
+L PCBs:AdafruitMAX31885 U6
 U 1 1 5D7F799B
 P 8900 5150
 F 0 "U6" H 8850 5625 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 8900 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface:AdafruitMAX31885 U5
+L PCBs:AdafruitMAX31885 U5
 U 1 1 5D7F85F8
 P 8050 5150
 F 0 "U5" H 8000 5625 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 8050 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface:AdafruitMAX31885 U4
+L PCBs:AdafruitMAX31885 U4
 U 1 1 5D7F8CB8
 P 7200 5150
 F 0 "U4" H 7150 5625 50  0000 C CNN
@@ -80,7 +81,7 @@ F 3 "" H 9700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface:AdafruitMAX31885 U3
+L PCBs:AdafruitMAX31885 U3
 U 1 1 5D80492F
 P 6350 5150
 F 0 "U3" H 6300 5625 50  0000 C CNN
@@ -91,7 +92,7 @@ F 3 "" H 6350 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface:AdafruitMAX31885 U1
+L PCBs:AdafruitMAX31885 U1
 U 1 1 5D806D0F
 P 4650 5150
 F 0 "U1" H 4600 5625 50  0000 C CNN
@@ -188,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3300 5250 3300
 $Comp
-L Interface:AdafruitMAX31885 U2
+L PCBs:AdafruitMAX31885 U2
 U 1 1 5D8AD494
 P 5500 5150
 F 0 "U2" H 5500 5625 50  0000 C CNN
