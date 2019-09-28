@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:thermocouples-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -87,4 +86,24 @@ Wire Wire Line
 	4000 2600 4000 4900
 Wire Wire Line
 	4000 4900 4500 4900
+$Sheet
+S 4500 3350 900  450 
+U 5D8FDF0E
+F0 "Solenoids" 50
+F1 "Solenoids.sch" 50
+F2 "S1" I L 4500 3500 50 
+F3 "S2" I L 4500 3600 50 
+$EndSheet
+$Sheet
+S 4500 2100 900  350 
+U 5D900EFF
+F0 "PressureTransducers" 50
+F1 "PressureTransducers.sch" 50
+F2 "SDA" B L 4500 2200 50 
+F3 "SCL" B L 4500 2300 50 
+$EndSheet
+Wire Wire Line
+	2950 2200 4500 2200
+Wire Wire Line
+	2950 2300 4500 2300
 $EndSCHEMATC
