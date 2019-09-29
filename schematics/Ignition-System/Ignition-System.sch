@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+LIBS:Ignition-System-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	3900 2400 3900 4000
+Wire Notes Line
+	3900 4000 6650 4000
+Wire Notes Line
+	6650 4000 6650 2400
+Wire Notes Line
+	6650 2400 3900 2400
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D91878C
+P 4250 3750
+F 0 "SW?" H 4250 4035 50  0000 C CNN
+F 1 "SW_Push" H 4250 3944 50  0000 C CNN
+F 2 "" H 4250 3950 50  0001 C CNN
+F 3 "~" H 4250 3950 50  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D919555
+P 5250 2800
+F 0 "SW?" H 5250 3085 50  0000 C CNN
+F 1 "SW_Push" H 5250 2994 50  0000 C CNN
+F 2 "" H 5250 3000 50  0001 C CNN
+F 3 "~" H 5250 3000 50  0001 C CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3750 3200 3750
+$Comp
+L Analog_Switch:ADG417BN U?
+U 1 1 5D912A0C
+P 4250 2750
+F 0 "U?" H 4250 3017 50  0000 C CNN
+F 1 "ADG417BN" H 4250 2926 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4250 2650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2750 4550 3750
+Wire Wire Line
+	4550 3750 4450 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5D926CD2
+P 5250 3950
+F 0 "#PWR?" H 5250 3700 50  0001 C CNN
+F 1 "GND" H 5255 3777 50  0000 C CNN
+F 2 "" H 5250 3950 50  0001 C CNN
+F 3 "" H 5250 3950 50  0001 C CNN
+	1    5250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:RFM95W-868S2 U?
+U 1 1 5D9280F4
+P 7850 3850
+F 0 "U?" H 7850 4531 50  0000 C CNN
+F 1 "RFM95W-868S2" H 7850 4440 50  0000 C CNN
+F 2 "" H 4550 5500 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 4550 5500 50  0001 C CNN
+	1    7850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3950 8750 3950
+Wire Wire Line
+	8750 3950 8750 5600
+Wire Wire Line
+	8750 5600 8250 5600
+$Comp
+L Device:R_US R?
+U 1 1 5D9392B2
+P 8100 5600
+F 0 "R?" V 7895 5600 50  0000 C CNN
+F 1 "R_US" V 7986 5600 50  0000 C CNN
+F 2 "" V 8140 5590 50  0001 C CNN
+F 3 "~" H 8100 5600 50  0001 C CNN
+	1    8100 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 3850 8850 3850
+Wire Wire Line
+	8850 3850 8850 5700
+Wire Wire Line
+	8850 5700 8250 5700
+Wire Wire Line
+	8350 3750 8950 3750
+Wire Wire Line
+	8950 3750 8950 5800
+Wire Wire Line
+	8950 5800 8250 5800
+$Comp
+L Device:R_US R?
+U 1 1 5D93BDB8
+P 8100 5700
+F 0 "R?" V 7895 5700 50  0000 C CNN
+F 1 "R_US" V 7986 5700 50  0000 C CNN
+F 2 "" V 8140 5690 50  0001 C CNN
+F 3 "~" H 8100 5700 50  0001 C CNN
+	1    8100 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D93C3B6
+P 8100 5800
+F 0 "R?" V 7895 5800 50  0000 C CNN
+F 1 "R_US" V 7986 5800 50  0000 C CNN
+F 2 "" V 8140 5790 50  0001 C CNN
+F 3 "~" H 8100 5800 50  0001 C CNN
+	1    8100 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 4050 8650 4050
+Wire Wire Line
+	8650 4050 8650 5500
+Wire Wire Line
+	8650 5500 8250 5500
+$Comp
+L Device:R_US R?
+U 1 1 5D940ABB
+P 8100 5500
+F 0 "R?" V 7895 5500 50  0000 C CNN
+F 1 "R_US" V 7986 5500 50  0000 C CNN
+F 2 "" V 8140 5490 50  0001 C CNN
+F 3 "~" H 8100 5500 50  0001 C CNN
+	1    8100 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Analog_Switch:ADG417BN U?
+U 1 1 5D91557C
+P 6300 3150
+F 0 "U?" V 6346 3280 50  0000 L CNN
+F 1 "ADG417BN" V 6255 3280 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6300 3050 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf" H 6300 3150 50  0001 C CNN
+	1    6300 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 2850 6100 2850
+Wire Wire Line
+	6100 2850 6100 5450
+Wire Wire Line
+	6100 5450 7950 5450
+Wire Wire Line
+	7950 5450 7950 5500
+Wire Wire Line
+	5750 5600 7950 5600
+Wire Wire Line
+	5750 3350 5750 5600
+Wire Wire Line
+	3200 3750 3200 5700
+Wire Wire Line
+	3200 5700 7950 5700
+Wire Wire Line
+	5450 1450 2600 1450
+Wire Wire Line
+	2600 1450 2600 5800
+Wire Wire Line
+	2600 5800 7950 5800
+Wire Wire Line
+	5450 1450 5450 2800
+Wire Wire Line
+	5250 3350 5750 3350
+$Comp
+L Analog_Switch:ADG417BN U?
+U 1 1 5D919F98
+P 5250 3650
+F 0 "U?" V 5204 3780 50  0000 L CNN
+F 1 "ADG417BN" V 5295 3780 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5250 3550 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	0    -1   -1   0   
+$EndComp
+Text Notes 7350 3100 0    50   ~ 0
+There is an Uno under this. 
+$Comp
+L power:GND #PWR?
+U 1 1 5D95FC2E
+P 6300 3450
+F 0 "#PWR?" H 6300 3200 50  0001 C CNN
+F 1 "GND" H 6305 3277 50  0000 C CNN
+F 2 "" H 6300 3450 50  0001 C CNN
+F 3 "" H 6300 3450 50  0001 C CNN
+	1    6300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9607A1
+P 5050 2800
+F 0 "#PWR?" H 5050 2550 50  0001 C CNN
+F 1 "GND" H 5055 2627 50  0000 C CNN
+F 2 "" H 5050 2800 50  0001 C CNN
+F 3 "" H 5050 2800 50  0001 C CNN
+	1    5050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D961329
+P 3950 2750
+F 0 "#PWR?" H 3950 2500 50  0001 C CNN
+F 1 "GND" H 3955 2577 50  0000 C CNN
+F 2 "" H 3950 2750 50  0001 C CNN
+F 3 "" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
