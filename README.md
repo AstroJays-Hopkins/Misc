@@ -14,5 +14,5 @@ Visualize the runtime sensor logs (in our csv format).
 
 (Avionics)
 
-Temporary schematics until better quality ones can be drawn. Nove these out as
+Temporary schematics until better quality ones can be drawn. Move these out as
 they mature.
