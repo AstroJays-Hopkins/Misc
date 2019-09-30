@@ -1,14 +1,16 @@
-# `DartPlot` Utility Specifications
+# DartPlot Utility Specifications
 Version: 0.1.0  
 Date: 14 September 2019  
-Status: Initial Implementation Complete  
+Status: Current  
+Type: Software Sepcification  
+ID: 4S
 
 ## Description
 `dartplot` is a utility that takes a complete csv flight log as the input.
 It will output plots for each of the sensors of interest in the form of `png`
 images.
 
-## Base Specs
+## Requirements
 The folowing quantities will be plotted against time (t):
 
 - 6 thermocouples (Header name TC#)
