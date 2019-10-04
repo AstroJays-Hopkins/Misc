@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -73,7 +73,7 @@ F 1 "1N4004" V 3300 3400 50  0000 R CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3350 2825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3350 3000 50  0001 C CNN
 	1    3350 3000
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3350 2850 3350 2700
