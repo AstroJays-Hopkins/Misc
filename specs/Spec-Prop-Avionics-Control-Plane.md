@@ -32,8 +32,8 @@ particular needs.
 |-----|-----------|
 |0|Reversed movement of the valve.|
 |1|Forward movement of the valve.|
-|-1|Standby signal that does not lead to any change in current valve action.|
-|127|signal for **Ignition** Sequence, including opening the valve for a preset amount of time, before closing.|
+|2|Standby signal that does not lead to any change in current valve action.|
+|3|signal for **Ignition** Sequence, including opening the valve for a preset amount of time, before closing.|
 
 **Venting solenoid valve control**
 
@@ -41,7 +41,7 @@ particular needs.
 |-----|-----------|
 |0|**Closing** of the venting valve|
 |1|**Opening** of the venting valve|
-|-1|Standbay Signal, with no change in current valve action|
+|2|Standbay Signal, with no change in current valve action|
 
 
 **Fuel solenoid valve control**
@@ -50,7 +50,7 @@ particular needs.
 |-----|-----------|
 |0|**Closing** of the Fuel valve|
 |1|**Opening** of the Fuel valve|
-|-1|Standbay Signal, with no change in current valve action|
+|2|Standbay Signal, with no change in current valve action|
 
 One example of a command would be `{1,-1,0}`, denoting the unlikely command of
 forward action of ball valve, no change in action of venting valve, and the
