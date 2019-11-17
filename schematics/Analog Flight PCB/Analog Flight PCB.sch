@@ -1,0 +1,85 @@
+EESchema Schematic File Version 4
+LIBS:Analog Flight PCB-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1550 1350 550  400 
+U 5DD05F71
+F0 "tc1" 50
+F1 "tc1.sch" 50
+F2 "SDO" O R 2100 1450 50 
+F3 "SCK" I L 1550 1450 50 
+F4 "SDI" I L 1550 1550 50 
+F5 "CS" I L 1550 1650 50 
+$EndSheet
+$Sheet
+S 1550 2000 550  400 
+U 5DD3A452
+F0 "tc2" 50
+F1 "tc2.sch" 50
+F2 "SDO" O R 2100 2100 50 
+F3 "SCK" I L 1550 2100 50 
+F4 "SDI" I L 1550 2200 50 
+F5 "CS" I L 1550 2300 50 
+$EndSheet
+$Sheet
+S 1550 2650 550  400 
+U 5DD3A576
+F0 "tc3" 50
+F1 "tc3.sch" 50
+F2 "SDO" O R 2100 2750 50 
+F3 "SCK" I L 1550 2750 50 
+F4 "SDI" I L 1550 2850 50 
+F5 "CS" I L 1550 2950 50 
+$EndSheet
+$Sheet
+S 2550 1350 550  400 
+U 5DD3A6B3
+F0 "tc4" 50
+F1 "tc4.sch" 50
+F2 "SDO" O R 3100 1450 50 
+F3 "SCK" I L 2550 1450 50 
+F4 "SDI" I L 2550 1550 50 
+F5 "CS" I L 2550 1650 50 
+$EndSheet
+$Sheet
+S 2550 2000 550  400 
+U 5DD3A7F0
+F0 "tc5" 50
+F1 "tc5.sch" 50
+F2 "SDO" O R 3100 2100 50 
+F3 "SCK" I L 2550 2100 50 
+F4 "SDI" I L 2550 2200 50 
+F5 "CS" I L 2550 2300 50 
+$EndSheet
+$Sheet
+S 2550 2650 550  400 
+U 5DD3A84C
+F0 "tc6" 50
+F1 "tc6.sch" 50
+F2 "SDO" O R 3100 2750 50 
+F3 "SCK" I L 2550 2750 50 
+F4 "SDI" I L 2550 2850 50 
+F5 "CS" I L 2550 2950 50 
+$EndSheet
+$Sheet
+S 4200 1350 550  250 
+U 5DD079B8
+F0 "PT" 50
+F1 "PT.sch" 50
+F2 "SCL" I L 4200 1400 50 
+F3 "SDA" B L 4200 1500 50 
+$EndSheet
+$EndSCHEMATC
