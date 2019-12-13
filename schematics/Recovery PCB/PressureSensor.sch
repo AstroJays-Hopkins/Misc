@@ -1,0 +1,132 @@
+EESchema Schematic File Version 4
+LIBS:Recovery PCB-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR05
+U 1 1 5DEC1237
+P 6400 4100
+F 0 "#PWR05" H 6400 3850 50  0001 C CNN
+F 1 "GND" H 6405 3927 50  0000 C CNN
+F 2 "" H 6400 4100 50  0001 C CNN
+F 3 "" H 6400 4100 50  0001 C CNN
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DEC14F2
+P 6400 3800
+F 0 "C1" H 6515 3846 50  0000 L CNN
+F 1 "0.1u" H 6515 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 3650 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4100 6150 4100
+Wire Wire Line
+	5950 3300 6400 3300
+Wire Wire Line
+	6400 3300 6400 3650
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5DECB6BD
+P 6400 3300
+F 0 "#PWR04" H 6400 3150 50  0001 C CNN
+F 1 "+3.3V" H 6415 3473 50  0000 C CNN
+F 2 "" H 6400 3300 50  0001 C CNN
+F 3 "" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 3700 1    50   Input ~ 0
+SDA
+Wire Wire Line
+	4450 3800 4450 3700
+$Comp
+L Device:R_US R1
+U 1 1 5DECC67C
+P 4450 3550
+F 0 "R1" H 4518 3596 50  0000 L CNN
+F 1 "4.7k" H 4518 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4490 3540 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5DECCB19
+P 4450 3400
+F 0 "#PWR01" H 4450 3250 50  0001 C CNN
+F 1 "+3.3V" H 4465 3573 50  0000 C CNN
+F 2 "" H 4450 3400 50  0001 C CNN
+F 3 "" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 3800 3    50   Input ~ 0
+SCL
+Connection ~ 6400 3300
+$Comp
+L Sensor_Pressure:MS5607-02BA U1
+U 1 1 5DEDE483
+P 5950 3700
+F 0 "U1" H 5900 4250 50  0000 L CNN
+F 1 "MS5607-02BA" H 5700 4150 50  0000 L CNN
+F 2 "Package_LGA:LGA-8_3x5mm_P1.25mm" H 5950 3700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035" H 5950 3700 50  0001 C CNN
+	1    5950 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3400
+$Comp
+L Device:R_US R2
+U 1 1 5DEE447F
+P 4800 3550
+F 0 "R2" H 4868 3596 50  0000 L CNN
+F 1 "4.7k" H 4868 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 4840 3540 50  0001 C CNN
+F 3 "~" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3400 4800 3400
+Wire Wire Line
+	4800 3700 5550 3700
+Wire Wire Line
+	4450 3800 5550 3800
+Wire Wire Line
+	6400 3950 6400 4100
+Connection ~ 6400 4100
+Wire Wire Line
+	5550 3900 5550 4200
+Wire Wire Line
+	5550 4200 6150 4200
+Wire Wire Line
+	6150 4200 6150 4100
+Connection ~ 6150 4100
+Wire Wire Line
+	6150 4100 6400 4100
+NoConn ~ 5550 3600
+Wire Wire Line
+	5550 3500 5550 3300
+Wire Wire Line
+	5550 3300 5950 3300
+Connection ~ 5950 3300
+$EndSCHEMATC

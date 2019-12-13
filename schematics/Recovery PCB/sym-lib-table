@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BMP388)(type Legacy)(uri ${KIPRJMOD}/BMP388/BMP388.lib)(options "")(descr ""))
+  (lib (name ADXL377)(type Legacy)(uri ${KIPRJMOD}/ADXL377/ADXL377.lib)(options "")(descr ""))
+  (lib (name MEM2075-00-140-01-A)(type Legacy)(uri ${KIPRJMOD}/MEM2075-00-140-01-A/MEM2075-00-140-01-A.lib)(options "")(descr ""))
+)
