@@ -1,0 +1,172 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+GCT_MEM2075-00-140-01-A
+$EndINDEX
+$MODULE GCT_MEM2075-00-140-01-A
+Po 0 0 0 15 00000000 00000000 ~~
+Li GCT_MEM2075-00-140-01-A
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -5.76 -13.135 1 1 0 0.05 N V 21 "GCT_MEM2075-00-140-01-A"
+T1 -5.125 4.865 1 1 0 0.05 N V 21 "VAL**"
+DS -7.05 3.98 6.2 3.98 0.1 27
+DS -7.05 3.98 -7.05 -10.77 0.1 27
+DS -7.05 -10.77 8 -10.77 0.1 27
+DP 0 0 0 0 4 0 24
+Dl -7.05 -7.92
+Dl 3.15 -7.92
+Dl 3.15 -3.87
+Dl -7.05 -3.87
+DP 0 0 0 0 4 0 24
+Dl -7.05 -7.92
+Dl 3.15 -7.92
+Dl 3.15 -3.87
+Dl -7.05 -3.87
+DS -7.05 3.98 6.2 3.98 0.2 21
+DS -7.05 3.98 -7.05 1.2 0.2 21
+DS -7.05 -2 -7.05 -7.8 0.2 21
+DS 3.2 -10.77 7.7 -10.77 0.2 21
+DS 8 -2 8 -7.8 0.2 21
+DC 3.2 -12.5 3.32 -12.5 0.24 21
+DC 3.2 -12.5 3.32 -12.5 0.24 27
+DS -8.4 -12.37 9.35 -12.37 0.05 26
+DS 9.35 -12.37 9.35 4.23 0.05 26
+DS -8.4 4.23 -8.4 -12.37 0.05 26
+DS 6.2 3.98 6.2 4.23 0.2 21
+DS 6.2 4.23 7.3 4.23 0.2 21
+DS 7.3 4.23 7.3 3.98 0.2 21
+DS 7.3 3.98 8 3.98 0.2 21
+DS 8 3.98 8 1.2 0.2 21
+DS 6.2 3.98 6.2 4.23 0.1 27
+DS 6.2 4.23 7.3 4.23 0.1 27
+DS 7.3 4.23 7.3 3.98 0.1 27
+DS 7.3 3.98 8 3.98 0.1 27
+DS 8 3.98 8 -10.77 0.1 27
+DS -8.4 4.23 5.95 4.23 0.05 26
+DS 5.95 4.23 5.95 4.48 0.05 26
+DS 5.95 4.48 7.55 4.48 0.05 26
+DS 7.55 4.48 7.55 4.23 0.05 26
+DS 7.55 4.23 9.35 4.23 0.05 26
+$PAD
+Sh "P1" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.58 -11.42
+$EndPAD
+$PAD
+Sh "P2" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.48 -11.42
+$EndPAD
+$PAD
+Sh "P3" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.38 -11.42
+$EndPAD
+$PAD
+Sh "P4" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.72 -11.42
+$EndPAD
+$PAD
+Sh "P5" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.82 -11.42
+$EndPAD
+$PAD
+Sh "P6" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.92 -11.42
+$EndPAD
+$PAD
+Sh "P7" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -4.02 -11.42
+$EndPAD
+$PAD
+Sh "P8" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -5.12 -11.42
+$EndPAD
+$PAD
+Sh "P9" R 0.62 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -6.22 -11.42
+$EndPAD
+$PAD
+Sh "Hole" C 0.95 0.95 0 0 0
+Dr 0.95 0 0
+At HOLE N 00E0FFFF
+Po -3.4 0
+$EndPAD
+$PAD
+Sh "Hole" C 0.95 0.95 0 0 0
+Dr 0.95 0 0
+At HOLE N 00E0FFFF
+Po 3.4 0
+$EndPAD
+$PAD
+Sh "SH1" R 1.1 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -7.6 -0.42
+$EndPAD
+$PAD
+Sh "SH2" R 1.1 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -7.6 -9.42
+$EndPAD
+$PAD
+Sh "SH3" R 1.1 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 8.55 -9.42
+$EndPAD
+$PAD
+Sh "SH4" R 1.1 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 8.55 -0.42
+$EndPAD
+$EndMODULE GCT_MEM2075-00-140-01-A

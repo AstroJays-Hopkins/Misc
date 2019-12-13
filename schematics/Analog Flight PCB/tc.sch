@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -29,9 +29,19 @@ AR Path="/5DD3A576/5DD38260" Ref="R?"  Part="1"
 AR Path="/5DD3A6B3/5DD38260" Ref="R?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38260" Ref="R?"  Part="1" 
 AR Path="/5DD3A84C/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE94A7C/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE94B73/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE94E4F/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE94F3C/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE95024/5DD38260" Ref="R?"  Part="1" 
+AR Path="/5DE95E97/5DD38260" Ref="R10"  Part="1" 
+AR Path="/5DE96024/5DD38260" Ref="R13"  Part="1" 
+AR Path="/5DE96215/5DD38260" Ref="R16"  Part="1" 
+AR Path="/5DE962DA/5DD38260" Ref="R19"  Part="1" 
+AR Path="/5DE9642B/5DD38260" Ref="R22"  Part="1" 
 F 0 "R1" V 3955 2500 50  0000 C CNN
 F 1 "2k" V 3864 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3790 2490 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 2490 50  0001 C CNN
 F 3 "~" H 3750 2500 50  0001 C CNN
 	1    3750 2500
 	0    -1   -1   0   
@@ -51,6 +61,16 @@ AR Path="/5DD3A576/5DD3825D" Ref="#PWR?"  Part="1"
 AR Path="/5DD3A6B3/5DD3825D" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A7F0/5DD3825D" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A84C/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94A7C/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94B73/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94E4F/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94F3C/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95024/5DD3825D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95E97/5DD3825D" Ref="#PWR019"  Part="1" 
+AR Path="/5DE96024/5DD3825D" Ref="#PWR024"  Part="1" 
+AR Path="/5DE96215/5DD3825D" Ref="#PWR029"  Part="1" 
+AR Path="/5DE962DA/5DD3825D" Ref="#PWR034"  Part="1" 
+AR Path="/5DE9642B/5DD3825D" Ref="#PWR039"  Part="1" 
 F 0 "#PWR01" H 3800 1800 50  0001 C CNN
 F 1 "GND" H 3805 1877 50  0000 C CNN
 F 2 "" H 3800 2050 50  0001 C CNN
@@ -73,6 +93,16 @@ AR Path="/5DD3A576/5DD38255" Ref="#PWR?"  Part="1"
 AR Path="/5DD3A6B3/5DD38255" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38255" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A84C/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94A7C/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94B73/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94E4F/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94F3C/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95024/5DD38255" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95E97/5DD38255" Ref="#PWR020"  Part="1" 
+AR Path="/5DE96024/5DD38255" Ref="#PWR025"  Part="1" 
+AR Path="/5DE96215/5DD38255" Ref="#PWR030"  Part="1" 
+AR Path="/5DE962DA/5DD38255" Ref="#PWR035"  Part="1" 
+AR Path="/5DE9642B/5DD38255" Ref="#PWR040"  Part="1" 
 F 0 "#PWR02" H 4000 2950 50  0001 C CNN
 F 1 "GND" H 4005 3027 50  0000 C CNN
 F 2 "" H 4000 3200 50  0001 C CNN
@@ -95,9 +125,19 @@ AR Path="/5DD3A576/5DD38251" Ref="C?"  Part="1"
 AR Path="/5DD3A6B3/5DD38251" Ref="C?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38251" Ref="C?"  Part="1" 
 AR Path="/5DD3A84C/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE94A7C/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE94B73/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE94E4F/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE94F3C/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE95024/5DD38251" Ref="C?"  Part="1" 
+AR Path="/5DE95E97/5DD38251" Ref="C14"  Part="1" 
+AR Path="/5DE96024/5DD38251" Ref="C18"  Part="1" 
+AR Path="/5DE96215/5DD38251" Ref="C22"  Part="1" 
+AR Path="/5DE962DA/5DD38251" Ref="C26"  Part="1" 
+AR Path="/5DE9642B/5DD38251" Ref="C30"  Part="1" 
 F 0 "C3" H 4115 3096 50  0000 L CNN
 F 1 "0.01u" H 4115 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2900 50  0001 C CNN
 F 3 "~" H 4000 3050 50  0001 C CNN
 	1    4000 3050
 	1    0    0    -1  
@@ -117,9 +157,19 @@ AR Path="/5DD3A576/5DD3824A" Ref="C?"  Part="1"
 AR Path="/5DD3A6B3/5DD3824A" Ref="C?"  Part="1" 
 AR Path="/5DD3A7F0/5DD3824A" Ref="C?"  Part="1" 
 AR Path="/5DD3A84C/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE94A7C/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE94B73/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE94E4F/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE94F3C/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE95024/5DD3824A" Ref="C?"  Part="1" 
+AR Path="/5DE95E97/5DD3824A" Ref="C12"  Part="1" 
+AR Path="/5DE96024/5DD3824A" Ref="C16"  Part="1" 
+AR Path="/5DE96215/5DD3824A" Ref="C20"  Part="1" 
+AR Path="/5DE962DA/5DD3824A" Ref="C24"  Part="1" 
+AR Path="/5DE9642B/5DD3824A" Ref="C28"  Part="1" 
 F 0 "C1" H 4115 2246 50  0000 L CNN
 F 1 "0.01u" H 4115 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2050 50  0001 C CNN
 F 3 "~" H 4000 2200 50  0001 C CNN
 	1    4000 2200
 	1    0    0    -1  
@@ -139,9 +189,19 @@ AR Path="/5DD3A576/5DD38249" Ref="C?"  Part="1"
 AR Path="/5DD3A6B3/5DD38249" Ref="C?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38249" Ref="C?"  Part="1" 
 AR Path="/5DD3A84C/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE94A7C/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE94B73/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE94E4F/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE94F3C/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE95024/5DD38249" Ref="C?"  Part="1" 
+AR Path="/5DE95E97/5DD38249" Ref="C13"  Part="1" 
+AR Path="/5DE96024/5DD38249" Ref="C17"  Part="1" 
+AR Path="/5DE96215/5DD38249" Ref="C21"  Part="1" 
+AR Path="/5DE962DA/5DD38249" Ref="C25"  Part="1" 
+AR Path="/5DE9642B/5DD38249" Ref="C29"  Part="1" 
 F 0 "C2" H 4115 2696 50  0000 L CNN
 F 1 "0.1u" H 4115 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2500 50  0001 C CNN
 F 3 "~" H 4000 2650 50  0001 C CNN
 	1    4000 2650
 	1    0    0    -1  
@@ -161,9 +221,19 @@ AR Path="/5DD3A576/5DD0C781" Ref="R?"  Part="1"
 AR Path="/5DD3A6B3/5DD0C781" Ref="R?"  Part="1" 
 AR Path="/5DD3A7F0/5DD0C781" Ref="R?"  Part="1" 
 AR Path="/5DD3A84C/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE94A7C/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE94B73/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE94E4F/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE94F3C/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE95024/5DD0C781" Ref="R?"  Part="1" 
+AR Path="/5DE95E97/5DD0C781" Ref="R11"  Part="1" 
+AR Path="/5DE96024/5DD0C781" Ref="R14"  Part="1" 
+AR Path="/5DE96215/5DD0C781" Ref="R17"  Part="1" 
+AR Path="/5DE962DA/5DD0C781" Ref="R20"  Part="1" 
+AR Path="/5DE9642B/5DD0C781" Ref="R23"  Part="1" 
 F 0 "R2" V 3545 2800 50  0000 C CNN
 F 1 "2k" V 3636 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3790 2790 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 2790 50  0001 C CNN
 F 3 "~" H 3750 2800 50  0001 C CNN
 	1    3750 2800
 	0    1    1    0   
@@ -183,6 +253,16 @@ AR Path="/5DD3A576/5DD3823E" Ref="J?"  Part="1"
 AR Path="/5DD3A6B3/5DD3823E" Ref="J?"  Part="1" 
 AR Path="/5DD3A7F0/5DD3823E" Ref="J?"  Part="1" 
 AR Path="/5DD3A84C/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE94A7C/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE94B73/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE94E4F/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE94F3C/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE95024/5DD3823E" Ref="J?"  Part="1" 
+AR Path="/5DE95E97/5DD3823E" Ref="J4"  Part="1" 
+AR Path="/5DE96024/5DD3823E" Ref="J5"  Part="1" 
+AR Path="/5DE96215/5DD3823E" Ref="J6"  Part="1" 
+AR Path="/5DE962DA/5DD3823E" Ref="J7"  Part="1" 
+AR Path="/5DE9642B/5DD3823E" Ref="J8"  Part="1" 
 F 0 "J1" H 2918 2817 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2918 2726 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3000 2600 50  0001 C CNN
@@ -207,6 +287,16 @@ AR Path="/5DD3A576/5DD0AB30" Ref="#PWR?"  Part="1"
 AR Path="/5DD3A6B3/5DD0AB30" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A7F0/5DD0AB30" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A84C/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94A7C/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94B73/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94E4F/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94F3C/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95024/5DD0AB30" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95E97/5DD0AB30" Ref="#PWR021"  Part="1" 
+AR Path="/5DE96024/5DD0AB30" Ref="#PWR026"  Part="1" 
+AR Path="/5DE96215/5DD0AB30" Ref="#PWR031"  Part="1" 
+AR Path="/5DE962DA/5DD0AB30" Ref="#PWR036"  Part="1" 
+AR Path="/5DE9642B/5DD0AB30" Ref="#PWR041"  Part="1" 
 F 0 "#PWR03" H 4800 3300 50  0001 C CNN
 F 1 "GND" H 4805 3377 50  0000 C CNN
 F 2 "" H 4800 3550 50  0001 C CNN
@@ -231,6 +321,16 @@ AR Path="/5DD3A576/5DD0A6DD" Ref="#PWR?"  Part="1"
 AR Path="/5DD3A6B3/5DD0A6DD" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A7F0/5DD0A6DD" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A84C/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94A7C/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94B73/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94E4F/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94F3C/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95024/5DD0A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95E97/5DD0A6DD" Ref="#PWR022"  Part="1" 
+AR Path="/5DE96024/5DD0A6DD" Ref="#PWR027"  Part="1" 
+AR Path="/5DE96215/5DD0A6DD" Ref="#PWR032"  Part="1" 
+AR Path="/5DE962DA/5DD0A6DD" Ref="#PWR037"  Part="1" 
+AR Path="/5DE9642B/5DD0A6DD" Ref="#PWR042"  Part="1" 
 F 0 "#PWR04" H 5000 1450 50  0001 C CNN
 F 1 "+3.3V" H 5015 1773 50  0000 C CNN
 F 2 "" H 5000 1600 50  0001 C CNN
@@ -253,6 +353,16 @@ AR Path="/5DD3A576/5DD3822E" Ref="#PWR?"  Part="1"
 AR Path="/5DD3A6B3/5DD3822E" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A7F0/5DD3822E" Ref="#PWR?"  Part="1" 
 AR Path="/5DD3A84C/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94A7C/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94B73/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94E4F/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE94F3C/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95024/5DD3822E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE95E97/5DD3822E" Ref="#PWR023"  Part="1" 
+AR Path="/5DE96024/5DD3822E" Ref="#PWR028"  Part="1" 
+AR Path="/5DE96215/5DD3822E" Ref="#PWR033"  Part="1" 
+AR Path="/5DE962DA/5DD3822E" Ref="#PWR038"  Part="1" 
+AR Path="/5DE9642B/5DD3822E" Ref="#PWR043"  Part="1" 
 F 0 "#PWR05" H 5300 1650 50  0001 C CNN
 F 1 "GND" H 5305 1727 50  0000 C CNN
 F 2 "" H 5300 1900 50  0001 C CNN
@@ -278,9 +388,19 @@ AR Path="/5DD3A576/5DD38229" Ref="C?"  Part="1"
 AR Path="/5DD3A6B3/5DD38229" Ref="C?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38229" Ref="C?"  Part="1" 
 AR Path="/5DD3A84C/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE94A7C/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE94B73/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE94E4F/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE94F3C/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE95024/5DD38229" Ref="C?"  Part="1" 
+AR Path="/5DE95E97/5DD38229" Ref="C15"  Part="1" 
+AR Path="/5DE96024/5DD38229" Ref="C19"  Part="1" 
+AR Path="/5DE96215/5DD38229" Ref="C23"  Part="1" 
+AR Path="/5DE962DA/5DD38229" Ref="C27"  Part="1" 
+AR Path="/5DE9642B/5DD38229" Ref="C31"  Part="1" 
 F 0 "C4" V 5402 1900 50  0000 C CNN
 F 1 "0.1u" V 5311 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5188 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 1750 50  0001 C CNN
 F 3 "~" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	0    -1   -1   0   
@@ -333,6 +453,16 @@ AR Path="/5DD3A576/5DD38225" Ref="U?"  Part="1"
 AR Path="/5DD3A6B3/5DD38225" Ref="U?"  Part="1" 
 AR Path="/5DD3A7F0/5DD38225" Ref="U?"  Part="1" 
 AR Path="/5DD3A84C/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE94A7C/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE94B73/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE94E4F/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE94F3C/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE95024/5DD38225" Ref="U?"  Part="1" 
+AR Path="/5DE95E97/5DD38225" Ref="U4"  Part="1" 
+AR Path="/5DE96024/5DD38225" Ref="U5"  Part="1" 
+AR Path="/5DE96215/5DD38225" Ref="U6"  Part="1" 
+AR Path="/5DE962DA/5DD38225" Ref="U7"  Part="1" 
+AR Path="/5DE9642B/5DD38225" Ref="U8"  Part="1" 
 F 0 "U1" H 4750 2900 50  0000 C CNN
 F 1 "MAX31856" H 4800 3000 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5050 2250 50  0001 L CNN
@@ -360,9 +490,19 @@ AR Path="/5DD3A576/5DD2E6A8" Ref="R?"  Part="1"
 AR Path="/5DD3A6B3/5DD2E6A8" Ref="R?"  Part="1" 
 AR Path="/5DD3A7F0/5DD2E6A8" Ref="R?"  Part="1" 
 AR Path="/5DD3A84C/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE94A7C/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE94B73/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE94E4F/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE94F3C/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE95024/5DD2E6A8" Ref="R?"  Part="1" 
+AR Path="/5DE95E97/5DD2E6A8" Ref="R12"  Part="1" 
+AR Path="/5DE96024/5DD2E6A8" Ref="R15"  Part="1" 
+AR Path="/5DE96215/5DD2E6A8" Ref="R18"  Part="1" 
+AR Path="/5DE962DA/5DD2E6A8" Ref="R21"  Part="1" 
+AR Path="/5DE9642B/5DD2E6A8" Ref="R24"  Part="1" 
 F 0 "R3" V 3545 3500 50  0000 C CNN
 F 1 "2k" V 3636 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3790 3490 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 3490 50  0001 C CNN
 F 3 "~" H 3750 3500 50  0001 C CNN
 	1    3750 3500
 	0    1    1    0   
