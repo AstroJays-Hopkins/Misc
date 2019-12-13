@@ -1,0 +1,315 @@
+EESchema Schematic File Version 4
+LIBS:Recovery PCB-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay:SANYOU_SRD_Form_C K2
+U 1 1 5DF1D2F3
+P 7700 4700
+F 0 "K2" V 7133 4700 50  0000 C CNN
+F 1 "SANYOU_SRD_Form_C" V 7224 4700 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8150 4650 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7700 4700 50  0001 C CNN
+	1    7700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 5DF1D2F9
+P 8650 4900
+F 0 "J3" H 8730 4942 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8730 4851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 8650 4900 50  0001 C CNN
+F 3 "~" H 8650 4900 50  0001 C CNN
+	1    8650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4800 8450 4800
+Wire Wire Line
+	8000 5000 8450 5000
+Wire Wire Line
+	8450 4900 8200 4900
+Wire Wire Line
+	8200 4900 8200 5200
+Wire Wire Line
+	8200 5200 7400 5200
+Wire Wire Line
+	7400 5200 7400 4900
+Wire Wire Line
+	7400 4500 7250 4500
+Wire Wire Line
+	7250 4500 7250 3950
+Wire Wire Line
+	8000 4500 8200 4500
+Wire Wire Line
+	8200 4500 8200 3950
+$Comp
+L Device:D D2
+U 1 1 5DF1D309
+P 7700 3950
+F 0 "D2" H 7700 3734 50  0000 C CNN
+F 1 "D" H 7700 3825 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7700 3950 50  0001 C CNN
+F 3 "~" H 7700 3950 50  0001 C CNN
+	1    7700 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3950 7550 3950
+Wire Wire Line
+	7850 3950 8200 3950
+Connection ~ 8200 3950
+$Comp
+L power:+5V #PWR019
+U 1 1 5DF1D312
+P 8650 3950
+F 0 "#PWR019" H 8650 3800 50  0001 C CNN
+F 1 "+5V" H 8665 4123 50  0000 C CNN
+F 2 "" H 8650 3950 50  0001 C CNN
+F 3 "" H 8650 3950 50  0001 C CNN
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 3950
+$Comp
+L Transistor_BJT:BC547 Q2
+U 1 1 5DF1D319
+P 6700 3850
+F 0 "Q2" V 6935 3850 50  0000 C CNN
+F 1 "BC547" V 7026 3850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 3775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6700 3850 50  0001 L CNN
+	1    6700 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3950 6900 3950
+$Comp
+L power:GND #PWR018
+U 1 1 5DF1D320
+P 6400 3950
+F 0 "#PWR018" H 6400 3700 50  0001 C CNN
+F 1 "GND" H 6405 3777 50  0000 C CNN
+F 2 "" H 6400 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3950 6500 3950
+$Comp
+L Device:R_US R9
+U 1 1 5DF1D327
+P 6700 3500
+F 0 "R9" H 6768 3546 50  0000 L CNN
+F 1 "510" H 6768 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6740 3490 50  0001 C CNN
+F 3 "~" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3950 8350 3950
+Wire Wire Line
+	6900 3350 8350 3350
+Wire Wire Line
+	8350 3350 8350 3950
+Connection ~ 8350 3950
+Wire Wire Line
+	8350 3950 8500 3950
+Wire Wire Line
+	8500 3950 8500 3450
+Wire Wire Line
+	8500 2750 6900 2750
+Connection ~ 8500 3950
+Wire Wire Line
+	8500 3950 8650 3950
+$Comp
+L Device:R_US R10
+U 1 1 5DF25E8C
+P 8500 3300
+F 0 "R10" H 8568 3346 50  0000 L CNN
+F 1 "1k" H 8568 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8540 3290 50  0001 C CNN
+F 3 "~" H 8500 3300 50  0001 C CNN
+	1    8500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3150 8500 2750
+Wire Wire Line
+	4650 3150 4650 2750
+$Comp
+L Device:R_US R8
+U 1 1 5DF27E8C
+P 4650 3300
+F 0 "R8" H 4718 3346 50  0000 L CNN
+F 1 "1k" H 4718 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4690 3290 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 2750 1    50   Input ~ 0
+IN2
+Text HLabel 2850 2750 1    50   Input ~ 0
+IN1
+Wire Wire Line
+	4650 3950 4800 3950
+Connection ~ 4650 3950
+Wire Wire Line
+	4650 2750 3050 2750
+Wire Wire Line
+	4650 3950 4650 3450
+Wire Wire Line
+	4500 3950 4650 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	4500 3350 4500 3950
+Wire Wire Line
+	3050 3350 4500 3350
+Wire Wire Line
+	4350 3950 4500 3950
+$Comp
+L Device:R_US R7
+U 1 1 5DF165DD
+P 2850 3500
+F 0 "R7" H 2918 3546 50  0000 L CNN
+F 1 "510" H 2918 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2890 3490 50  0001 C CNN
+F 3 "~" H 2850 3500 50  0001 C CNN
+	1    2850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3950 2650 3950
+$Comp
+L power:GND #PWR016
+U 1 1 5DF15DAB
+P 2550 3950
+F 0 "#PWR016" H 2550 3700 50  0001 C CNN
+F 1 "GND" H 2555 3777 50  0000 C CNN
+F 2 "" H 2550 3950 50  0001 C CNN
+F 3 "" H 2550 3950 50  0001 C CNN
+	1    2550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3950 3050 3950
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5DF12F43
+P 2850 3850
+F 0 "Q1" V 3085 3850 50  0000 C CNN
+F 1 "BC547" V 3176 3850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3050 3775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2850 3850 50  0001 L CNN
+	1    2850 3850
+	0    1    1    0   
+$EndComp
+Connection ~ 3400 3950
+$Comp
+L power:+5V #PWR017
+U 1 1 5DF11261
+P 4800 3950
+F 0 "#PWR017" H 4800 3800 50  0001 C CNN
+F 1 "+5V" H 4815 4123 50  0000 C CNN
+F 2 "" H 4800 3950 50  0001 C CNN
+F 3 "" H 4800 3950 50  0001 C CNN
+	1    4800 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 3950
+Wire Wire Line
+	4000 3950 4350 3950
+Wire Wire Line
+	3400 3950 3700 3950
+$Comp
+L Device:D D1
+U 1 1 5DF0FBBA
+P 3850 3950
+F 0 "D1" H 3850 3734 50  0000 C CNN
+F 1 "D" H 3850 3825 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3850 3950 50  0001 C CNN
+F 3 "~" H 3850 3950 50  0001 C CNN
+	1    3850 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 4500 4350 3950
+Wire Wire Line
+	4150 4500 4350 4500
+Wire Wire Line
+	3400 4500 3400 3950
+Wire Wire Line
+	3550 4500 3400 4500
+Wire Wire Line
+	3550 5200 3550 4900
+Wire Wire Line
+	4350 5200 3550 5200
+Wire Wire Line
+	4350 4900 4350 5200
+Wire Wire Line
+	4600 4900 4350 4900
+Wire Wire Line
+	4150 5000 4600 5000
+Wire Wire Line
+	4150 4800 4600 4800
+$Comp
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 5DEFF311
+P 4800 4900
+F 0 "J2" H 4880 4942 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 4880 4851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 4800 4900 50  0001 C CNN
+F 3 "~" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:SANYOU_SRD_Form_C K1
+U 1 1 5DEFED3C
+P 3850 4700
+F 0 "K1" V 3283 4700 50  0000 C CNN
+F 1 "SANYOU_SRD_Form_C" V 3374 4700 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4300 4650 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 3850 4700 50  0001 C CNN
+	1    3850 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:LTV-827S U4
+U 1 1 5DF33BD5
+P 2950 3050
+F 0 "U4" V 2904 3238 50  0000 L CNN
+F 1 "LTV-827S" V 2995 3238 50  0000 L CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 2950 2750 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 2150 3600 50  0001 C CNN
+	1    2950 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:LTV-827S U4
+U 2 1 5DF34A4E
+P 6800 3050
+F 0 "U4" V 6754 3238 50  0000 L CNN
+F 1 "LTV-827S" V 6845 3238 50  0000 L CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 6800 2750 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 6000 3600 50  0001 C CNN
+	2    6800 3050
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
