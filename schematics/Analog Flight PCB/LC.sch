@@ -172,9 +172,9 @@ F 3 "" H 6500 2450 50  0001 C CNN
 $EndComp
 NoConn ~ 7700 3550
 Text HLabel 8250 3750 2    50   Input ~ 0
-SCLK
+SCL
 Text HLabel 8250 3850 2    50   BiDi ~ 0
-SDIO
+SDA
 Wire Wire Line
 	7000 4150 7000 4400
 Wire Wire Line
