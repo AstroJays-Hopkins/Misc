@@ -76,12 +76,6 @@ F 3 "" H 3950 3100 50  0001 C CNN
 	1    3950 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 2600 3000 2600
-Wire Wire Line
-	3550 2700 3000 2700
-Wire Wire Line
-	3550 2800 3000 2800
 $Comp
 L Device:R_US R4
 U 1 1 5DD0FE78
@@ -187,19 +181,89 @@ Wire Wire Line
 Wire Wire Line
 	4350 3050 4850 3050
 NoConn ~ 3550 2900
-$Comp
-L Connector:Screw_Terminal_01x03 J2
-U 1 1 5DD17319
-P 2800 2700
-F 0 "J2" H 2718 3017 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 2718 2926 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2800 2700 50  0001 C CNN
-F 3 "~" H 2800 2700 50  0001 C CNN
-	1    2800 2700
-	-1   0    0    -1  
-$EndComp
 Text HLabel 5150 2700 2    50   Input ~ 0
 SCL
 Text HLabel 5500 2800 2    50   BiDi ~ 0
 SDA
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5DFF0B22
+P 2150 2700
+F 0 "J2" H 2258 2981 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2258 2890 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2150 2700 50  0001 C CNN
+F 3 "~" H 2150 2700 50  0001 C CNN
+	1    2150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5DFF1466
+P 2150 3200
+F 0 "J3" H 2258 3481 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2258 3390 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2150 3200 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5DFF1A64
+P 2150 3700
+F 0 "J4" H 2258 3981 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2258 3890 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2150 3700 50  0001 C CNN
+F 3 "~" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2600 2650 2600
+Wire Wire Line
+	2350 2700 2750 2700
+Wire Wire Line
+	2350 2800 2850 2800
+Wire Wire Line
+	2350 3100 2650 3100
+Wire Wire Line
+	2650 3100 2650 2600
+Connection ~ 2650 2600
+Wire Wire Line
+	2650 2600 3050 2600
+Wire Wire Line
+	2350 3200 2750 3200
+Wire Wire Line
+	2750 3200 2750 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2700 3150 2700
+Wire Wire Line
+	2350 3300 2850 3300
+Wire Wire Line
+	2850 3300 2850 2800
+Connection ~ 2850 2800
+Wire Wire Line
+	2850 2800 3250 2800
+Wire Wire Line
+	2350 3600 3050 3600
+Wire Wire Line
+	3050 3600 3050 2600
+Connection ~ 3050 2600
+Wire Wire Line
+	3050 2600 3550 2600
+Wire Wire Line
+	2350 3700 3150 3700
+Wire Wire Line
+	3150 3700 3150 2700
+Connection ~ 3150 2700
+Wire Wire Line
+	3150 2700 3550 2700
+Wire Wire Line
+	2350 3800 3250 3800
+Wire Wire Line
+	3250 3800 3250 2800
+Connection ~ 3250 2800
+Wire Wire Line
+	3250 2800 3550 2800
 $EndSCHEMATC
