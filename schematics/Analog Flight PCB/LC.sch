@@ -228,17 +228,6 @@ F 3 "~" H 6500 2600 50  0001 C CNN
 	1    6500 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J3
-U 1 1 5DE72BA2
-P 3900 3750
-F 0 "J3" H 3818 4067 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 3818 3976 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 3900 3750 50  0001 C CNN
-F 3 "~" H 3900 3750 50  0001 C CNN
-	1    3900 3750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 3650 4650 3650
 Wire Wire Line
@@ -288,4 +277,15 @@ Wire Wire Line
 	6150 3550 6300 3550
 Wire Wire Line
 	5800 3750 6150 3750
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5DFF8340
+P 3900 3750
+F 0 "J5" H 4008 4031 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4008 3940 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3900 3750 50  0001 C CNN
+F 3 "~" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
