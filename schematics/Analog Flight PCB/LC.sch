@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -277,14 +277,31 @@ Wire Wire Line
 Wire Wire Line
 	5800 3750 6150 3750
 $Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5DFF8340
+L Connector:Conn_01x05_Male J5
+U 1 1 5E0AE106
 P 3900 3750
-F 0 "J5" H 4008 4031 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 4008 3940 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3900 3750 50  0001 C CNN
+F 0 "J5" H 4008 4131 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 4008 4040 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 3900 3750 50  0001 C CNN
 F 3 "~" H 3900 3750 50  0001 C CNN
 	1    3900 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5E0B1E30
+P 4500 3400
+F 0 "#PWR045" H 4500 3150 50  0001 C CNN
+F 1 "GND" H 4505 3227 50  0000 C CNN
+F 2 "" H 4500 3400 50  0001 C CNN
+F 3 "" H 4500 3400 50  0001 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3550 4400 3400
+Wire Wire Line
+	4400 3400 4500 3400
+Wire Wire Line
+	4100 3550 4400 3550
 $EndSCHEMATC
