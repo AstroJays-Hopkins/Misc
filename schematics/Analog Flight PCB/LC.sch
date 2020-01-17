@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -211,7 +211,7 @@ P 7000 3650
 F 0 "U3" H 7000 3800 50  0000 C CNN
 F 1 "NAU7802SGI" H 7000 3700 50  0000 C CNN
 F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 7000 3800 50  0001 C CNN
-F 3 "" H 7000 3800 50  0001 C CNN
+F 3 "http://www.nuvoton.com/hq/resource-download.jsp?tp_GUID=DA00-NAU7802" H 7000 3800 50  0001 C CNN
 	1    7000 3650
 	1    0    0    -1  
 $EndComp
