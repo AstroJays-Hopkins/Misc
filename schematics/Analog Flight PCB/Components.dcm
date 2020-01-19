@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31856
+D Precision Thermocouple to Digital Converter with Linearization, TSSOP-14
+K Thermocouple converter serial
+F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
+$ENDCMP
+#
+#End Doc Library
