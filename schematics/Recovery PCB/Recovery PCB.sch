@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:Recovery PCB-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 1 7
+Title "Recovery Avionics PCB"
+Date "2020-01-21"
+Rev "0.0.1a"
+Comp "JHU AstroJays Student Rocketry Team"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -80,4 +80,92 @@ F0 "microSD" 50
 F1 "microSD.sch" 50
 F2 "CD" I L 3200 1950 50 
 $EndSheet
+$Sheet
+S 1450 4000 950  700 
+U 5E277237
+F0 "radio-915-lora" 50
+F1 "radio-915-lora.sch" 50
+F2 "RADIO_SCK" I L 1450 4100 50 
+F3 "RADIO_MOSI" I L 1450 4200 50 
+F4 "RADIO_MISO" O L 1450 4300 50 
+F5 "RADIO_SS" I L 1450 4400 50 
+F6 "RADIO_RESET" I L 1450 4500 50 
+F7 "RADIO_DIO0" O L 1450 4600 50 
+$EndSheet
+$Comp
+L MCU_Microchip_SAMD:ATSAMD21G18A-AUT U?
+U 1 1 5E27AB92
+P 8050 3200
+F 0 "U?" H 8050 1214 50  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" H 8050 1123 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 7100 1450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 8050 4200 50  0001 C CNN
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5E27B68E
+P 6350 1750
+F 0 "Y?" V 6304 1881 50  0000 L CNN
+F 1 "32.768kHz" V 6395 1881 50  0000 L CNN
+F 2 "" H 6350 1750 50  0001 C CNN
+F 3 "~" H 6350 1750 50  0001 C CNN
+	1    6350 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1900 6900 1700
+Wire Wire Line
+	6900 1700 7050 1700
+Wire Wire Line
+	6350 1600 7050 1600
+Wire Wire Line
+	6350 1900 6900 1900
+$Comp
+L Device:C C?
+U 1 1 5E27B93F
+P 6350 2050
+F 0 "C?" H 6465 2096 50  0000 L CNN
+F 1 "22p" H 6465 2005 50  0000 L CNN
+F 2 "" H 6388 1900 50  0001 C CNN
+F 3 "~" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1900
+$Comp
+L Device:C C?
+U 1 1 5E27BA52
+P 5950 2050
+F 0 "C?" H 6065 2096 50  0000 L CNN
+F 1 "22p" H 6065 2005 50  0000 L CNN
+F 2 "" H 5988 1900 50  0001 C CNN
+F 3 "~" H 5950 2050 50  0001 C CNN
+	1    5950 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1900 5950 1600
+Wire Wire Line
+	5950 1600 6350 1600
+Connection ~ 6350 1600
+Wire Wire Line
+	6350 2200 6150 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5E27BB25
+P 6150 2200
+F 0 "#PWR?" H 6150 1950 50  0001 C CNN
+F 1 "GND" H 6155 2027 50  0000 C CNN
+F 2 "" H 6150 2200 50  0001 C CNN
+F 3 "" H 6150 2200 50  0001 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2200
+Wire Wire Line
+	6150 2200 5950 2200
+Text Notes 4600 2950 0    118  ~ 0
+No, it's not done yet.
 $EndSCHEMATC

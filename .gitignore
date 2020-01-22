@@ -202,4 +202,5 @@ $RECYCLE.BIN/
 # KiCad
 *-cache.lib
 *.sch-bak
+*.bak
 

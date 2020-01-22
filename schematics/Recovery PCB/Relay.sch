@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:Recovery PCB-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "JHU AstroJays Student Rocketry Team"
 Comment1 ""
 Comment2 ""
 Comment3 ""
