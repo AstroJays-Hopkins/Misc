@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+LIBS:Recovery PCB-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp "JHU AstroJays Student Rocketry Team"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_AM_FM:RFM95W-915S2 U?
+U 1 1 5E277423
+P 4550 2900
+F 0 "U?" H 4550 3578 50  0000 C CNN
+F 1 "RFM95W-915S2" H 4550 3487 50  0000 C CNN
+F 2 "" H 1250 4550 50  0001 C CNN
+F 3 "http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf" H 1250 4550 50  0001 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E279029
+P 3650 2400
+F 0 "C?" V 3398 2400 50  0000 C CNN
+F 1 "0.1u" V 3489 2400 50  0000 C CNN
+F 2 "" H 3688 2250 50  0001 C CNN
+F 3 "~" H 3650 2400 50  0001 C CNN
+	1    3650 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2791B0
+P 3500 2400
+F 0 "#PWR?" H 3500 2150 50  0001 C CNN
+F 1 "GND" H 3505 2227 50  0000 C CNN
+F 2 "" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E2795E6
+P 4050 2300
+F 0 "#PWR?" H 4050 2150 50  0001 C CNN
+F 1 "+3.3V" H 4065 2473 50  0000 C CNN
+F 2 "" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0001 C CNN
+	1    4050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Antenna AE?
+U 1 1 5E279E92
+P 5250 2400
+F 0 "AE?" H 5330 2391 50  0000 L CNN
+F 1 "Antenna" H 5330 2300 50  0000 L CNN
+F 2 "" H 5250 2400 50  0001 C CNN
+F 3 "~" H 5250 2400 50  0001 C CNN
+	1    5250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2400 4050 2400
+Connection ~ 4050 2400
+Wire Wire Line
+	4050 2400 4550 2400
+Wire Wire Line
+	4050 2300 4050 2400
+Wire Wire Line
+	5250 2600 5050 2600
+Wire Wire Line
+	4450 3500 4550 3500
+Connection ~ 4550 3500
+Wire Wire Line
+	4550 3500 4650 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5E27A0D3
+P 4550 3500
+F 0 "#PWR?" H 4550 3250 50  0001 C CNN
+F 1 "GND" H 4555 3327 50  0000 C CNN
+F 2 "" H 4550 3500 50  0001 C CNN
+F 3 "" H 4550 3500 50  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4050 2600 0    50   Input ~ 0
+RADIO_SCK
+Text HLabel 4050 2700 0    50   Input ~ 0
+RADIO_MOSI
+Text HLabel 4050 2800 0    50   Output ~ 0
+RADIO_MISO
+Text HLabel 2950 2900 0    50   Input ~ 0
+RADIO_SS
+Wire Wire Line
+	2950 2900 3150 2900
+$Comp
+L Device:R R?
+U 1 1 5E27AC84
+P 3150 2750
+F 0 "R?" H 3220 2796 50  0000 L CNN
+F 1 "100k" H 3220 2705 50  0000 L CNN
+F 2 "" V 3080 2750 50  0001 C CNN
+F 3 "~" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 2900
+Wire Wire Line
+	3150 2900 4050 2900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E27AD48
+P 3150 2600
+F 0 "#PWR?" H 3150 2450 50  0001 C CNN
+F 1 "+3.3V" H 3165 2773 50  0000 C CNN
+F 2 "" H 3150 2600 50  0001 C CNN
+F 3 "" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 3100 0    50   Input ~ 0
+RADIO_RESET
+Wire Wire Line
+	2150 3100 2300 3100
+$Comp
+L Device:R R?
+U 1 1 5E27AF7C
+P 2300 2950
+F 0 "R?" H 2370 2996 50  0000 L CNN
+F 1 "100k" H 2370 2905 50  0000 L CNN
+F 2 "" V 2230 2950 50  0001 C CNN
+F 3 "~" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 3100
+Wire Wire Line
+	2300 3100 4050 3100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E27AFBB
+P 2300 2800
+F 0 "#PWR?" H 2300 2650 50  0001 C CNN
+F 1 "+3.3V" H 2315 2973 50  0000 C CNN
+F 2 "" H 2300 2800 50  0001 C CNN
+F 3 "" H 2300 2800 50  0001 C CNN
+	1    2300 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5050 3300 2    50   Output ~ 0
+RADIO_DIO0
+NoConn ~ 5050 2800
+NoConn ~ 5050 2900
+NoConn ~ 5050 3000
+NoConn ~ 5050 3100
+NoConn ~ 5050 3200
+$EndSCHEMATC

@@ -201,9 +201,11 @@ $RECYCLE.BIN/
 
 # KiCad
 _autosave*
+*.bak
 *.bck
 *-cache
 *-cache.lib
 gerbers/
 *pcb-bak
 *.sch-bak
+
