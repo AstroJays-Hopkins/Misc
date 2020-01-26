@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 14
 Title "Analog Sensor Interface"
 Date ""
-Rev "1.0d"
+Rev "1.0e"
 Comp "Astrojays Rocketry @ JHU"
 Comment1 "PCB-S-H1"
 Comment2 ""
