@@ -200,6 +200,10 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/linux,macos,python,windows
 
 # KiCad
+_autosave*
+*.bck
+*-cache
 *-cache.lib
+gerbers/
+*pcb-bak
 *.sch-bak
-
