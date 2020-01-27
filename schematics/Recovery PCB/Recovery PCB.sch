@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Recovery Avionics PCB"
 Date "2020-01-21"
 Rev "0.0.1a"
@@ -93,79 +93,326 @@ F6 "RADIO_RESET" I L 1450 4500 50
 F7 "RADIO_DIO0" O L 1450 4600 50 
 $EndSheet
 $Comp
-L MCU_Microchip_SAMD:ATSAMD21G18A-AUT U?
-U 1 1 5E27AB92
-P 8050 3200
-F 0 "U?" H 8050 1214 50  0000 C CNN
-F 1 "ATSAMD21G18A-AUT" H 8050 1123 50  0000 C CNN
-F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 7100 1450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 8050 4200 50  0001 C CNN
-	1    8050 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal Y?
 U 1 1 5E27B68E
-P 6350 1750
-F 0 "Y?" V 6304 1881 50  0000 L CNN
-F 1 "32.768kHz" V 6395 1881 50  0000 L CNN
-F 2 "" H 6350 1750 50  0001 C CNN
-F 3 "~" H 6350 1750 50  0001 C CNN
-	1    6350 1750
+P 6350 2450
+F 0 "Y?" V 6304 2581 50  0000 L CNN
+F 1 "32.768kHz" V 6395 2581 50  0000 L CNN
+F 2 "" H 6350 2450 50  0001 C CNN
+F 3 "~" H 6350 2450 50  0001 C CNN
+	1    6350 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6900 1900 6900 1700
+	6900 2600 6900 2400
 Wire Wire Line
-	6900 1700 7050 1700
+	6900 2400 7050 2400
 Wire Wire Line
-	6350 1600 7050 1600
+	6350 2300 7050 2300
 Wire Wire Line
-	6350 1900 6900 1900
+	6350 2600 6900 2600
 $Comp
 L Device:C C?
 U 1 1 5E27B93F
-P 6350 2050
-F 0 "C?" H 6465 2096 50  0000 L CNN
-F 1 "22p" H 6465 2005 50  0000 L CNN
-F 2 "" H 6388 1900 50  0001 C CNN
-F 3 "~" H 6350 2050 50  0001 C CNN
-	1    6350 2050
+P 6350 2750
+F 0 "C?" H 6465 2796 50  0000 L CNN
+F 1 "22p" H 6465 2705 50  0000 L CNN
+F 2 "" H 6388 2600 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6350 2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6350 1900
+Connection ~ 6350 2600
 $Comp
 L Device:C C?
 U 1 1 5E27BA52
-P 5950 2050
-F 0 "C?" H 6065 2096 50  0000 L CNN
-F 1 "22p" H 6065 2005 50  0000 L CNN
-F 2 "" H 5988 1900 50  0001 C CNN
-F 3 "~" H 5950 2050 50  0001 C CNN
-	1    5950 2050
+P 5950 2750
+F 0 "C?" H 6065 2796 50  0000 L CNN
+F 1 "22p" H 6065 2705 50  0000 L CNN
+F 2 "" H 5988 2600 50  0001 C CNN
+F 3 "~" H 5950 2750 50  0001 C CNN
+	1    5950 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 1900 5950 1600
+	5950 2600 5950 2300
 Wire Wire Line
-	5950 1600 6350 1600
-Connection ~ 6350 1600
+	5950 2300 6350 2300
+Connection ~ 6350 2300
 Wire Wire Line
-	6350 2200 6150 2200
+	6350 2900 6150 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5E27BB25
-P 6150 2200
-F 0 "#PWR?" H 6150 1950 50  0001 C CNN
-F 1 "GND" H 6155 2027 50  0000 C CNN
-F 2 "" H 6150 2200 50  0001 C CNN
-F 3 "" H 6150 2200 50  0001 C CNN
-	1    6150 2200
+P 6150 2900
+F 0 "#PWR?" H 6150 2650 50  0001 C CNN
+F 1 "GND" H 6155 2727 50  0000 C CNN
+F 2 "" H 6150 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 2200
+Connection ~ 6150 2900
 Wire Wire Line
-	6150 2200 5950 2200
-Text Notes 4600 2950 0    118  ~ 0
+	6150 2900 5950 2900
+Text Notes 4600 3650 0    118  ~ 0
 No, it's not done yet.
+$Sheet
+S 3100 3950 850  750 
+U 5E2DF1A9
+F0 "gps-module" 50
+F1 "gps-module.sch" 50
+F2 "RX" I L 3100 4250 50 
+F3 "TX" O L 3100 4150 50 
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 5E2E1420
+P 7350 5800
+F 0 "#PWR?" H 7350 5550 50  0001 C CNN
+F 1 "GND" H 7355 5627 50  0000 C CNN
+F 2 "" H 7350 5800 50  0001 C CNN
+F 3 "" H 7350 5800 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5800 7950 5800
+$Comp
+L MCU_Microchip_SAMD:ATSAMD21G18A-AUT U?
+U 1 1 5E27AB92
+P 8050 3900
+F 0 "U?" H 8050 1914 50  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" H 8050 1823 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 7100 2150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 8050 4900 50  0001 C CNN
+	1    8050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5400 6850 5400
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E1A9C
+P 6300 5600
+F 0 "SW?" V 6346 5552 50  0000 R CNN
+F 1 "SW_Push" V 6255 5552 50  0000 R CNN
+F 2 "" H 6300 5800 50  0001 C CNN
+F 3 "" H 6300 5800 50  0001 C CNN
+	1    6300 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 5800 8150 5800
+Connection ~ 7950 5800
+$Comp
+L Device:C C?
+U 1 1 5E2E29D6
+P 8400 1850
+F 0 "C?" V 8148 1850 50  0000 C CNN
+F 1 "1u" V 8239 1850 50  0000 C CNN
+F 2 "" H 8438 1700 50  0001 C CNN
+F 3 "~" H 8400 1850 50  0001 C CNN
+	1    8400 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2E2A5A
+P 8550 1950
+F 0 "#PWR?" H 8550 1700 50  0001 C CNN
+F 1 "GND" H 8555 1777 50  0000 C CNN
+F 2 "" H 8550 1950 50  0001 C CNN
+F 3 "" H 8550 1950 50  0001 C CNN
+	1    8550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2E2AE2
+P 8400 950
+F 0 "C?" V 8148 950 50  0000 C CNN
+F 1 "10u" V 8239 950 50  0000 C CNN
+F 2 "" H 8438 800 50  0001 C CNN
+F 3 "~" H 8400 950 50  0001 C CNN
+	1    8400 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2E2B89
+P 8400 1400
+F 0 "C?" V 8148 1400 50  0000 C CNN
+F 1 "100n" V 8239 1400 50  0000 C CNN
+F 2 "" H 8438 1250 50  0001 C CNN
+F 3 "~" H 8400 1400 50  0001 C CNN
+	1    8400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2E2E9D
+P 7550 1950
+F 0 "#PWR?" H 7550 1700 50  0001 C CNN
+F 1 "GND" H 7555 1777 50  0000 C CNN
+F 2 "" H 7550 1950 50  0001 C CNN
+F 3 "" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2E3FFA
+P 7700 1850
+F 0 "C?" V 7448 1850 50  0000 C CNN
+F 1 "100n" V 7539 1850 50  0000 C CNN
+F 2 "" H 7738 1700 50  0001 C CNN
+F 3 "~" H 7700 1850 50  0001 C CNN
+	1    7700 1850
+	0    1    1    0   
+$EndComp
+Connection ~ 8550 1400
+Wire Wire Line
+	8550 950  8550 1400
+Wire Wire Line
+	8550 1400 8550 1850
+Wire Wire Line
+	8550 1950 8550 1850
+Connection ~ 8550 1850
+Wire Wire Line
+	8250 1850 8250 2000
+Wire Wire Line
+	7850 1850 7850 2000
+Wire Wire Line
+	7550 1950 7550 1850
+$Comp
+L Device:C C?
+U 1 1 5E2E542C
+P 7700 1400
+F 0 "C?" V 7448 1400 50  0000 C CNN
+F 1 "100n" V 7539 1400 50  0000 C CNN
+F 2 "" H 7738 1250 50  0001 C CNN
+F 3 "~" H 7700 1400 50  0001 C CNN
+	1    7700 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 950  8150 950 
+Wire Wire Line
+	8150 950  8150 1400
+Wire Wire Line
+	8150 1400 8250 1400
+Connection ~ 8150 1400
+Wire Wire Line
+	8150 1400 8150 2000
+Wire Wire Line
+	7850 1400 7950 1400
+Wire Wire Line
+	7950 1400 7950 2000
+Wire Wire Line
+	7550 1850 7550 1400
+Connection ~ 7550 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E2E6BFA
+P 6950 950
+F 0 "#PWR?" H 6950 800 50  0001 C CNN
+F 1 "+3.3V" H 6965 1123 50  0000 C CNN
+F 2 "" H 6950 950 50  0001 C CNN
+F 3 "" H 6950 950 50  0001 C CNN
+	1    6950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2E7512
+P 7250 1650
+F 0 "C?" H 7365 1696 50  0000 L CNN
+F 1 "10u" H 7365 1605 50  0000 L CNN
+F 2 "" H 7288 1500 50  0001 C CNN
+F 3 "~" H 7250 1650 50  0001 C CNN
+	1    7250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1800 7250 1850
+Wire Wire Line
+	7250 1850 7550 1850
+Wire Wire Line
+	6850 5800 7350 5800
+Connection ~ 7350 5800
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5E2E97C8
+P 7600 950
+F 0 "L?" H 7600 1165 50  0000 C CNN
+F 1 "10uH" H 7600 1074 50  0000 C CNN
+F 2 "" H 7600 950 50  0001 C CNN
+F 3 "~" H 7600 950 50  0001 C CNN
+	1    7600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 950  7250 950 
+Wire Wire Line
+	7250 1500 7250 950 
+Connection ~ 7250 950 
+Wire Wire Line
+	7250 950  7350 950 
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5E2EAF0E
+P 8050 950
+F 0 "FB?" V 7813 950 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 7904 950 50  0000 C CNN
+F 2 "" V 7980 950 50  0001 C CNN
+F 3 "~" H 8050 950 50  0001 C CNN
+	1    8050 950 
+	0    1    1    0   
+$EndComp
+Connection ~ 8150 950 
+Wire Wire Line
+	7950 950  7850 950 
+Wire Wire Line
+	7950 950  7950 1400
+Connection ~ 7950 950 
+Connection ~ 7950 1400
+$Comp
+L Device:C C?
+U 1 1 5E2EBF3D
+P 6850 5600
+F 0 "C?" H 6965 5646 50  0000 L CNN
+F 1 "100n" H 6965 5555 50  0000 L CNN
+F 2 "" H 6888 5450 50  0001 C CNN
+F 3 "~" H 6850 5600 50  0001 C CNN
+	1    6850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5400 6850 5450
+Wire Wire Line
+	6850 5750 6850 5800
+Wire Wire Line
+	6850 5800 6300 5800
+Connection ~ 6850 5800
+$Comp
+L Device:R R?
+U 1 1 5E2ECDF9
+P 6600 5400
+F 0 "R?" V 6393 5400 50  0000 C CNN
+F 1 "330" V 6484 5400 50  0000 C CNN
+F 2 "" V 6530 5400 50  0001 C CNN
+F 3 "~" H 6600 5400 50  0001 C CNN
+	1    6600 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 5400 6300 5400
+Wire Wire Line
+	6750 5400 6850 5400
+Connection ~ 6850 5400
+Text Notes 6900 6050 2    50   ~ 0
+From 38.4 "External Reset Circuit" (page 1011) \nof Atmel's complete datasheet for uC.
+Text Notes 8800 1100 0    50   ~ 0
+From 38.2 "Power Supply" (page 1008) of \nAtmel's complete datasheet for uC.
 $EndSCHEMATC
