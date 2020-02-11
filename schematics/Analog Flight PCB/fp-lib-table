@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name AJ_GFX)(type KiCad)(uri ${KIPRJMOD}/../Lib/AJ_GFX.pretty)(options "")(descr "Astrojays specific graphical assets"))
+  (lib (name AJ_GFX)(type KiCad)(uri ${KIPRJMOD}/../Lib/Footprints/AJ_GFX.pretty)(options "")(descr "Astrojays specific graphical assets"))
 )
