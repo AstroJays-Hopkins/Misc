@@ -74,11 +74,14 @@ F 3 "~" H 3350 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3200 1900 550  200 
+S 3200 1900 550  500 
 U 5DF50C3B
 F0 "microSD" 50
 F1 "microSD.sch" 50
-F2 "CD" I L 3200 1950 50 
+F2 "SD_CS" I L 3200 2000 50 
+F3 "SD_CLK" I L 3200 2100 50 
+F4 "SD_DI" I L 3200 2200 50 
+F5 "SD_DO" O L 3200 2300 50 
 $EndSheet
 $Sheet
 S 1450 4000 950  700 
@@ -164,6 +167,8 @@ F0 "gps-module" 50
 F1 "gps-module.sch" 50
 F2 "RX" I L 3100 4250 50 
 F3 "TX" O L 3100 4150 50 
+F4 "GPS_SDA" B L 3100 4400 50 
+F5 "GPS_SCL" I L 3100 4500 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
