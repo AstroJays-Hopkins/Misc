@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Logic_LevelTranslator:TXB0104PW U5
-U 1 1 5DF439F4
-P 6050 3550
-F 0 "U5" H 6050 2761 50  0000 C CNN
-F 1 "TXB0104PW" H 6050 2670 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6050 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 6160 3645 50  0001 C CNN
-	1    6050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x07_Male J6
 U 1 1 5DF4BC1A
 P 7650 3600
@@ -36,17 +25,6 @@ F 3 "~" H 7650 3600 50  0001 C CNN
 	1    7650 3600
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR024
-U 1 1 5DF50EA8
-P 6150 2850
-F 0 "#PWR024" H 6150 2700 50  0001 C CNN
-F 1 "+5V" H 6165 3023 50  0000 C CNN
-F 2 "" H 6150 2850 50  0001 C CNN
-F 3 "" H 6150 2850 50  0001 C CNN
-	1    6150 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 3300 7350 3300
 Wire Wire Line
@@ -55,17 +33,6 @@ Wire Wire Line
 	7450 3900 7350 3900
 Wire Wire Line
 	7350 3900 7350 4000
-$Comp
-L power:+5V #PWR025
-U 1 1 5DF528D7
-P 7350 3200
-F 0 "#PWR025" H 7350 3050 50  0001 C CNN
-F 1 "+5V" H 7365 3373 50  0000 C CNN
-F 2 "" H 7350 3200 50  0001 C CNN
-F 3 "" H 7350 3200 50  0001 C CNN
-	1    7350 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5DF52C47
@@ -77,8 +44,8 @@ F 3 "" H 7350 4000 50  0001 C CNN
 	1    7350 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 7450 3800 0    50   Input ~ 0
-CD
+Text HLabel 7200 3800 3    50   Input ~ 0
+SD_CS
 Wire Wire Line
 	7450 3500 6450 3500
 Wire Wire Line
@@ -92,29 +59,9 @@ Wire Wire Line
 Wire Wire Line
 	6500 3400 6500 3250
 Wire Wire Line
-	6500 3250 6450 3250
-Wire Wire Line
 	7450 3700 6500 3700
 Wire Wire Line
 	6500 3700 6500 3850
-Wire Wire Line
-	6500 3850 6450 3850
-$Comp
-L power:+3.3V #PWR023
-U 1 1 5DF5662A
-P 5950 2850
-F 0 "#PWR023" H 5950 2700 50  0001 C CNN
-F 1 "+3.3V" H 5965 3023 50  0000 C CNN
-F 2 "" H 5950 2850 50  0001 C CNN
-F 3 "" H 5950 2850 50  0001 C CNN
-	1    5950 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 2850 5650 2850
-Wire Wire Line
-	5650 2850 5650 3050
-Connection ~ 5950 2850
 Wire Wire Line
 	3250 4050 3200 4050
 Wire Wire Line
@@ -135,8 +82,6 @@ F 3 "" H 3200 4250 50  0001 C CNN
 	1    3200 4250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3250 3850 0    50   Input ~ 0
-CD
 Wire Wire Line
 	3250 3550 3150 3550
 $Comp
@@ -150,30 +95,8 @@ F 3 "" H 3150 2900 50  0001 C CNN
 	1    3150 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 3250 5150 3250
 NoConn ~ 4650 3950
 NoConn ~ 4650 4050
-Wire Wire Line
-	4650 3850 5650 3850
-$Comp
-L MEM2075-00-140-01-A:MEM2075-00-140-01-A J5
-U 1 1 5DF6E6EE
-P 3950 3850
-F 0 "J5" H 3950 4417 50  0000 C CNN
-F 1 "MEM2075-00-140-01-A" H 3950 4326 50  0000 C CNN
-F 2 "GCT_MEM2075-00-140-01-A" H 3950 3850 50  0001 L BNN
-F 3 "MICRO SD PUSH-PUSH, SMT, 1.40MM" H 3950 3850 50  0001 L BNN
-F 4 "Global Connector Technology" H 3950 3850 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 3950 3850 50  0001 L BNN "Field5"
-F 6 "None" H 3950 3850 50  0001 L BNN "Field6"
-F 7 "Package Analog Devices" H 3950 3850 50  0001 L BNN "Field7"
-F 8 "MEM2075-00-140-01-A" H 3950 3850 50  0001 L BNN "Field8"
-	1    3950 3850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 3650 4750 3650
 Wire Wire Line
 	4750 3650 4750 3550
 Wire Wire Line
@@ -182,8 +105,6 @@ Wire Wire Line
 	4650 3650 4700 3650
 Wire Wire Line
 	4700 3650 4700 3450
-Wire Wire Line
-	4700 3450 5650 3450
 $Comp
 L Device:R_US R11
 U 1 1 5DF951A8
@@ -209,17 +130,66 @@ Wire Wire Line
 Wire Wire Line
 	5000 4150 4650 4150
 Connection ~ 5150 3250
-Wire Wire Line
-	6050 4250 6400 4250
 $Comp
-L power:GND #PWR027
-U 1 1 5DFA1386
-P 6400 4250
-F 0 "#PWR027" H 6400 4000 50  0001 C CNN
-F 1 "GND" H 6405 4077 50  0000 C CNN
-F 2 "" H 6400 4250 50  0001 C CNN
-F 3 "" H 6400 4250 50  0001 C CNN
-	1    6400 4250
+L MEM2075-00-140-01-A:MEM2075-00-140-01-A J5
+U 1 1 5DF6E6EE
+P 3950 3850
+F 0 "J5" H 3950 4417 50  0000 C CNN
+F 1 "MEM2075-00-140-01-A" H 3950 4326 50  0000 C CNN
+F 2 "GCT_MEM2075-00-140-01-A" H 3950 3850 50  0001 L BNN
+F 3 "https://gct.co/files/drawings/mem2075.pdf" H 3950 3850 50  0001 L BNN
+F 4 "Global Connector Technology" H 3950 3850 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 3950 3850 50  0001 L BNN "Field5"
+F 6 "None" H 3950 3850 50  0001 L BNN "Field6"
+F 7 "Package Analog Devices" H 3950 3850 50  0001 L BNN "Field7"
+F 8 "MEM2075-00-140-01-A" H 3950 3850 50  0001 L BNN "Field8"
+	1    3950 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E3F408D
+P 7350 3200
+F 0 "#PWR?" H 7350 3050 50  0001 C CNN
+F 1 "+3.3V" H 7365 3373 50  0000 C CNN
+F 2 "" H 7350 3200 50  0001 C CNN
+F 3 "" H 7350 3200 50  0001 C CNN
+	1    7350 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 3250 6500 3250
+Wire Wire Line
+	4700 3450 6250 3450
+Wire Wire Line
+	4750 3650 6250 3650
+Wire Wire Line
+	4650 3850 6250 3850
+Wire Wire Line
+	7450 3800 7050 3800
+Text Label 7050 3800 2    50   ~ 0
+SD_CS
+Text Label 3250 3850 2    50   ~ 0
+SD_CS
+Text HLabel 6250 3700 0    50   Input ~ 0
+SD_CLK
+Wire Wire Line
+	6250 3700 6250 3650
+Connection ~ 6250 3650
+Wire Wire Line
+	6250 3650 6450 3650
+Text HLabel 6250 3500 0    50   Input ~ 0
+SD_DI
+Wire Wire Line
+	6250 3500 6250 3450
+Connection ~ 6250 3450
+Wire Wire Line
+	6250 3450 6450 3450
+Text HLabel 6250 3900 0    50   Input ~ 0
+SD_DO
+Wire Wire Line
+	6250 3900 6250 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 6500 3850
 $EndSCHEMATC
